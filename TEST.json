@@ -1,0 +1,125 @@
+{
+    "inputs": {
+        "input_value": "show me latest most perfomed post"
+    },
+    "outputs": [
+        {
+            "results": {
+                "message": {
+                    "text_key": "text",
+                    "data": {
+                        "timestamp": "2025-01-02T19:24:03",
+                        "sender": "Machine",
+                        "sender_name": "AI",
+                        "session_id": "f9157251-ed0b-4785-8167-8eca41de56ec",
+                        "text": "The latest most performed post is:\n\n- **ID:** 783\n- **Type:** reel\n- **Performance Metrics:** 480 (likes), 122 (comments), 172 (shares)\n- **Date:** 2024-12-05 00:00:00\n\nThis post has the highest engagement metrics among the entries listed.",
+                        "files": [],
+                        "error": false,
+                        "edit": false,
+                        "properties": {
+                            "text_color": "",
+                            "background_color": "",
+                            "edited": false,
+                            "source": {
+                                "id": "OpenAIModel-rmXlS",
+                                "display_name": "OpenAI",
+                                "source": "gpt-4o-mini"
+                            },
+                            "icon": "OpenAI",
+                            "allow_markdown": false,
+                            "state": "complete",
+                            "targets": []
+                        },
+                        "category": "message",
+                        "content_blocks": [],
+                        "id": "ae5ecd63-253d-4dd6-88ee-c5054dcbe30a",
+                        "flow_id": "f9157251-ed0b-4785-8167-8eca41de56ec"
+                    },
+                    "default_value": "",
+                    "text": "The latest most performed post is:\n\n- **ID:** 783\n- **Type:** reel\n- **Performance Metrics:** 480 (likes), 122 (comments), 172 (shares)\n- **Date:** 2024-12-05 00:00:00\n\nThis post has the highest engagement metrics among the entries listed.",
+                    "sender": "Machine",
+                    "sender_name": "AI",
+                    "files": [],
+                    "session_id": "f9157251-ed0b-4785-8167-8eca41de56ec",
+                    "timestamp": "2025-01-02T19:24:03Z",
+                    "flow_id": "f9157251-ed0b-4785-8167-8eca41de56ec",
+                    "error": false,
+                    "edit": false,
+                    "properties": {
+                        "text_color": "",
+                        "background_color": "",
+                        "edited": false,
+                        "source": {
+                            "id": "OpenAIModel-rmXlS",
+                            "display_name": "OpenAI",
+                            "source": "gpt-4o-mini"
+                        },
+                        "icon": "OpenAI",
+                        "allow_markdown": false,
+                        "state": "complete",
+                        "targets": []
+                    },
+                    "category": "message",
+                    "content_blocks": []
+                }
+            },
+            "artifacts": {
+                "message": "The latest most performed post is:\n\n- **ID:** 783\n\n- **Type:** reel\n\n- **Performance Metrics:** 480 (likes), 122 (comments), 172 (shares)\n\n- **Date:** 2024-12-05 00:00:00\n\nThis post has the highest engagement metrics among the entries listed.",
+                "sender": "Machine",
+                "sender_name": "AI",
+                "files": [],
+                "type": "object"
+            },
+            "outputs": {
+                "message": {
+                    "message": {
+                        "timestamp": "2025-01-02T19:24:03",
+                        "sender": "Machine",
+                        "sender_name": "AI",
+                        "session_id": "f9157251-ed0b-4785-8167-8eca41de56ec",
+                        "text": "The latest most performed post is:\n\n- **ID:** 783\n- **Type:** reel\n- **Performance Metrics:** 480 (likes), 122 (comments), 172 (shares)\n- **Date:** 2024-12-05 00:00:00\n\nThis post has the highest engagement metrics among the entries listed.",
+                        "files": [],
+                        "error": false,
+                        "edit": false,
+                        "properties": {
+                            "text_color": "",
+                            "background_color": "",
+                            "edited": false,
+                            "source": {
+                                "id": "OpenAIModel-rmXlS",
+                                "display_name": "OpenAI",
+                                "source": "gpt-4o-mini"
+                            },
+                            "icon": "OpenAI",
+                            "allow_markdown": false,
+                            "state": "complete",
+                            "targets": []
+                        },
+                        "category": "message",
+                        "content_blocks": [],
+                        "id": "ae5ecd63-253d-4dd6-88ee-c5054dcbe30a",
+                        "flow_id": "f9157251-ed0b-4785-8167-8eca41de56ec"
+                    },
+                    "type": "object"
+                }
+            },
+            "logs": {
+                "message": []
+            },
+            "messages": [
+                {
+                    "message": "The latest most performed post is:\n\n- **ID:** 783\n\n- **Type:** reel\n\n- **Performance Metrics:** 480 (likes), 122 (comments), 172 (shares)\n\n- **Date:** 2024-12-05 00:00:00\n\nThis post has the highest engagement metrics among the entries listed.",
+                    "sender": "Machine",
+                    "sender_name": "AI",
+                    "session_id": "f9157251-ed0b-4785-8167-8eca41de56ec",
+                    "component_id": "ChatOutput-WHodt",
+                    "files": [],
+                    "type": "message"
+                }
+            ],
+            "component_display_name": "Chat Output",
+            "component_id": "ChatOutput-WHodt",
+            "used_frozen_result": false
+        }
+    ]
+}
