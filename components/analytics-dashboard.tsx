@@ -4,9 +4,9 @@ import { useState } from 'react'
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { HoverCard, HoverCardContent, HoverCardTrigger } from "@/components/ui/hover-card"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Heart, Info, PlayCircle, ImageIcon, BarChart3 } from 'lucide-react'
-import { ChatWindow } from './components/ChatWindow'
+import { ChatWindow } from './ChatWindow'
 
 export default function AnalyticsDashboard() {
   const [selectedPeriod, setSelectedPeriod] = useState('today')
