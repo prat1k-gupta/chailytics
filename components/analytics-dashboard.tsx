@@ -24,20 +24,20 @@ export default function AnalyticsDashboard() {
           <h1 className="text-3xl font-bold text-[#795548]">Social Media Analytics</h1>
           <Tabs defaultValue="today" className="w-full sm:w-[300px]" onValueChange={setSelectedPeriod}>
             <TabsList className="grid w-full grid-cols-3 bg-[#D7CCC8]">
-              <TabsTrigger 
-                value="today" 
+              <TabsTrigger
+                value="today"
                 className="data-[state=active]:bg-[#795548] data-[state=active]:text-white"
               >
                 Today
               </TabsTrigger>
-              <TabsTrigger 
-                value="week" 
+              <TabsTrigger
+                value="week"
                 className="data-[state=active]:bg-[#795548] data-[state=active]:text-white"
               >
                 Week
               </TabsTrigger>
-              <TabsTrigger 
-                value="month" 
+              <TabsTrigger
+                value="month"
                 className="data-[state=active]:bg-[#795548] data-[state=active]:text-white"
               >
                 Month
