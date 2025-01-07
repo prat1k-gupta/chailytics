@@ -21,8 +21,7 @@ export default function AnalyticsDashboard() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#FFF8E1] to-[#FFE0B2] p-6">
       <div className="max-w-7xl mx-auto space-y-8">
-        <div className="flex flex-col sm:flex-row justify-between items-center gap-4 bg-white/50 p-6 rounded-lg shadow-md">
-          <ChailyticsLogo className="mb-4 sm:mb-0" />
+        {/* <div className="flex flex-col sm:flex-row justify-between items-center gap-4 bg-white/50 p-6 rounded-lg shadow-md">
           <Tabs defaultValue="today" className="w-full sm:w-[300px]" onValueChange={setSelectedPeriod}>
             <TabsList className="grid w-full grid-cols-3 bg-[#D7CCC8]">
               <TabsTrigger
@@ -45,8 +44,8 @@ export default function AnalyticsDashboard() {
               </TabsTrigger>
             </TabsList>
           </Tabs>
-        </div>
-
+        </div> */}
+        {/* 
         <Card className="backdrop-blur-sm bg-white/80 border-[#BCAAA4] shadow-lg">
           <CardHeader>
             <CardTitle className="text-[#5D4037]">AI Summary</CardTitle>
@@ -156,8 +155,11 @@ export default function AnalyticsDashboard() {
               </div>
             </CardContent>
           </Card>
+        </div> */}
+        <div className='flex items-center justify-between'>
+          <ChailyticsLogo className="mb-4 sm:mb-0" />
+          <p className='font-bold'>The Code VSPR's</p>
         </div>
-
         <ChatWindow />
       </div>
     </div>

@@ -20,7 +20,7 @@ export default function AnalyticsDashboard() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#FFF8E1] to-[#FFE0B2]">
       <div className="container mx-auto p-6 space-y-8">
-        <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
+        {/* <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
           <h1 className="text-3xl font-bold text-[#795548]">Social Media Analytics</h1>
           <Tabs defaultValue="today" className="w-full sm:w-[300px]" onValueChange={setSelectedPeriod}>
             <TabsList className="grid w-full grid-cols-3 bg-[#D7CCC8]">
@@ -44,9 +44,9 @@ export default function AnalyticsDashboard() {
               </TabsTrigger>
             </TabsList>
           </Tabs>
-        </div>
+        </div> */}
 
-        <Card className="backdrop-blur-sm bg-white/80 border-[#BCAAA4] shadow-lg">
+        {/* <Card className="backdrop-blur-sm bg-white/80 border-[#BCAAA4] shadow-lg">
           <CardHeader>
             <CardTitle className="text-[#5D4037]">AI Summary</CardTitle>
           </CardHeader>
@@ -155,7 +155,7 @@ export default function AnalyticsDashboard() {
               </div>
             </CardContent>
           </Card>
-        </div>
+        </div> */}
 
         <ChatWindow />
       </div>
