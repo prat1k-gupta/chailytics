@@ -1,21 +1,21 @@
 'use client'
 
 import { useState } from 'react'
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { HoverCard, HoverCardContent, HoverCardTrigger } from "@/components/ui/hover-card"
-import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Heart, Info, PlayCircle, ImageIcon, BarChart3 } from 'lucide-react'
+// import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+// import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+// import { HoverCard, HoverCardContent, HoverCardTrigger } from "@/components/ui/hover-card"
+// import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
+// import { Heart, Info, PlayCircle, ImageIcon, BarChart3 } from 'lucide-react'
 import { ChatWindow } from './ChatWindow'
 
 export default function AnalyticsDashboard() {
-  const [selectedPeriod, setSelectedPeriod] = useState('today')
+  // const [selectedPeriod, setSelectedPeriod] = useState('today')
 
-  const aiSummary = {
-    today: "Today's performance shows a 15% increase in engagement compared to yesterday. Reels are performing exceptionally well.",
-    week: "This week's data indicates a growing trend in carousel posts, with a 25% higher engagement rate than last week.",
-    month: "Monthly analysis reveals that your audience is most active during evenings. Consider scheduling important posts during peak hours."
-  }
+  // const aiSummary = {
+  //   today: "Today's performance shows a 15% increase in engagement compared to yesterday. Reels are performing exceptionally well.",
+  //   week: "This week's data indicates a growing trend in carousel posts, with a 25% higher engagement rate than last week.",
+  //   month: "Monthly analysis reveals that your audience is most active during evenings. Consider scheduling important posts during peak hours."
+  // }
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#FFF8E1] to-[#FFE0B2]">
