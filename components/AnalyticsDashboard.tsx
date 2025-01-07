@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+// import { useState } from 'react'
 // import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 // import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 // import { HoverCard, HoverCardContent, HoverCardTrigger } from "@/components/ui/hover-card"
@@ -158,7 +158,7 @@ export default function AnalyticsDashboard() {
         </div> */}
         <div className='flex items-center justify-between'>
           <ChailyticsLogo className="mb-4 sm:mb-0" />
-          <p className='font-bold'>The Code VSPR's</p>
+          <p className='font-bold'>{"The Code VSPR's"}</p>
         </div>
         <ChatWindow />
       </div>
